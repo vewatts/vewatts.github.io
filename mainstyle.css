@@ -40,16 +40,17 @@ Body{
   cursor: pointer;
 }
 .gallery{
-	width: 90%;
-	padding: 20px;
-	background-color: cadetblue;
-	overflow: hidden;
-	
-	display: inline-grid;
-	grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-	grid-template-rows: 1fr;
-	gap: 10px
-
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: cadetblue;
+    overflow: hidden;
+    display: inline-grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding-right: 20px;
 }
 
 .galleryimage img{
@@ -61,9 +62,12 @@ Body{
 }
 
 .galleryimage img:hover{
-	transform: scale(1.5)
+	transform: scale(2.5)
 }
 
 .SmallDesc img{
 	Font-color: White
+
+
+
 }
